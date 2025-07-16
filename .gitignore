@@ -1,0 +1,80 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Cargo package manager files
+**/Cargo.lock
+!**/Cargo.lock  # Keep this if it's a binary project, ignore for libraries
+
+# IDE/editor settings
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Backup files
+*.bak
+*.old
+
+# Node_modules (if using JavaScript/TypeScript in the project)
+node_modules/
+
+# Generated documentation
+/target/doc/
+
+# Coverage reports (if using code coverage tools)
+/coverage/
+
+# Debugging files
+*.stackdump
+*.core
+
+# Ignore large binary files (if applicable)
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore archives and compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore media files (if not needed)
+*.mp4
+*.mp3
+*.wav
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore database files (if applicable)
+*.db
+*.sqlite
+*.sql
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.cache
+
+# Ignore large generated files
+*.out
+*.obj
+*.o
+*.a
+*.lib
+*.pdb

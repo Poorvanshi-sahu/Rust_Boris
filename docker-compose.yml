@@ -1,0 +1,6 @@
+services:
+  rustboris:
+    image: rustboris
+    build:
+      context: .
+      dockerfile: ./Dockerfile
